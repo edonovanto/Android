@@ -2,6 +2,7 @@ package com.novanto.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -42,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     Integer hasil = Integer.parseInt(bil1.getText().toString()) + Integer.parseInt(bil2.getText().toString());
                     tvHasil.setText(String.valueOf(hasil));
+                    Intent pindah = new Intent(MainActivity.this, HasilActivity.class);
+                    pindah.putExtra("Hasil",String.valueOf(hasil));
+                    startActivity(pindah);
                 }
             }
         });
@@ -77,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 tvHasil.setText(" ");
             }
         });
+        //bisa menghapus element menggunakan visibility gone dari file.java
 
 
     }

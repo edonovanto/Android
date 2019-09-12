@@ -84,14 +84,16 @@
         android:id="@+id/btnHapus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hapus Hasil"/>
+        android:text="Hapus Hasil"
+        android:visibility="gone"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_margin="10dp"
-        android:text="Hasil"/>
+        android:text="Hasil"
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/tvHasil"
@@ -99,7 +101,8 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:textAlignment="center"
-        android:text="0"/>
+        android:text="0"
+        android:visibility="gone"/>
 
 
 </LinearLayout>
