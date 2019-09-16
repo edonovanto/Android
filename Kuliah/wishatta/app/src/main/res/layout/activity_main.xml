@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Wisata"
+        android:textSize="30sp"
+        android:layout_marginBottom="60px"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/desa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desa" />
+
+    <CheckBox
+        android:id="@+id/kota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kota" />
+
+    <CheckBox
+        android:id="@+id/popular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Populer" />
+
+    <CheckBox
+        android:id="@+id/solo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solo" />
+
+    <CheckBox
+        android:id="@+id/kelompok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelompok" />
+
+    <CheckBox
+        android:id="@+id/berpasangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berpasangan" />
+
+    <CheckBox
+        android:id="@+id/fasilitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fasilitas Baik" />
+
+    <CheckBox
+        android:id="@+id/akomodasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Akomodasi Baik" />
+
+    <Button
+        android:id="@+id/buttonApply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textColor="@android:color/white"
+        android:background="@color/buttonColor"
+        android:layout_marginTop="200dp"/>
+
+
+</LinearLayout>
+</ScrollView>
