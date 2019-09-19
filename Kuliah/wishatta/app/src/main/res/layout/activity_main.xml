@@ -80,7 +80,7 @@
         android:id="@+id/buttonApply"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Apply"
         android:textColor="@android:color/white"
         android:background="@color/buttonColor"
         android:layout_marginTop="200dp"/>
