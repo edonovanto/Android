@@ -1,6 +1,7 @@
 package com.novanto.myrecyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -44,14 +45,24 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    private void showRecyclerGrid(){
+        rvHeroes.setLayoutManager(new GridLayoutManager(this, 2));
+        GridHeroAdapter gridHeroAdapter = new GridHeroAdapter(list);
+        rvHeroes.setAdapter(gridHeroAdapter);
+    }
+
     public void setMode(int selectedMode){
         switch (selectedMode){
             case R.id.action_list:
+                showRecyclerList();
                 break;
             case R.id.action_grid:
+                showRecyclerGrid();
                 break;
             case R.id.action_cardview:
                 break;
         }
     }
+
+
 }
