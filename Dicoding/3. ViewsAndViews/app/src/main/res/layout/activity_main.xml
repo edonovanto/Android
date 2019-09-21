@@ -24,6 +24,7 @@
                 android:src="@drawable/pixel_google"/>
 
             <TextView
+                style="@style/TextContent.Small.White"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
@@ -40,6 +41,7 @@
         </FrameLayout>
 
         <TextView
+            style="@style/TextContent.Black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="32sp"
@@ -51,6 +53,7 @@
             android:textColor="@android:color/black"/>
 
         <TextView
+            style="@style/TextContent.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Stock hanya 5 buah"
@@ -60,6 +63,7 @@
             android:layout_marginBottom="16dp"/>
 
         <TextView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/content_text"
@@ -91,20 +95,14 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_marginRight="16dp"
+                    style="@style/TextSpec"
                     android:text="Display"
                     />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_weight="1"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_display"
-                    android:textColor="@android:color/black"/>
+                    />
 
             </TableRow>
 
@@ -150,12 +148,8 @@
         </TableLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:text="Dijual oleh"
-            android:textSize="12sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"/>
 
         <RelativeLayout
@@ -183,12 +177,8 @@
         </RelativeLayout>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Beli"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"/>
+            style="@style/ButtonGeneral"
+            android:text="Beli" />
 
     </LinearLayout>
 
