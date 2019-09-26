@@ -6,9 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".CallsFragment">
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RVCalls"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Call Fragment"/>
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
 </FrameLayout>

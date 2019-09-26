@@ -33,6 +33,12 @@ public class MainActivity extends AppCompatActivity {
         rvHeroes.setAdapter(listHeroAdapter);
     }
 
+    private void showRecyclerGrid(){
+        rvHeroes.setLayoutManager(new GridLayoutManager(this, 2));
+        GridHeroAdapter gridHeroAdapter = new GridHeroAdapter(list);
+        rvHeroes.setAdapter(gridHeroAdapter);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -45,11 +51,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void showRecyclerGrid(){
-        rvHeroes.setLayoutManager(new GridLayoutManager(this, 2));
-        GridHeroAdapter gridHeroAdapter = new GridHeroAdapter(list);
-        rvHeroes.setAdapter(gridHeroAdapter);
-    }
 
     public void setMode(int selectedMode){
         switch (selectedMode){

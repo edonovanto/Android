@@ -36,10 +36,13 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     @Nullable
     @Override
+    //mencocokan urutan dari title
     public CharSequence getPageTitle(int position) {
         return fragmentListTitle.get(position);
     }
 
+
+    //menambahkan fragment secara dinamis
     public void addFragment(Fragment fragment1, String title1){
         fragmentList1.add(fragment1);
         fragmentListTitle.add(title1);
