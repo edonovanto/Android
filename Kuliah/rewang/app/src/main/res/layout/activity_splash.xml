@@ -23,7 +23,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginTop="5dp"
-        android:textColor="@android:color/darker_gray"
+        android:textColor="@android:color/white"
         android:text="Restoring Disaster"/>
 
 </LinearLayout>
