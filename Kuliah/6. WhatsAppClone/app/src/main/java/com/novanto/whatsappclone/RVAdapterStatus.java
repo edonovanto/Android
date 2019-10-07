@@ -11,32 +11,32 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class RVAdapterCall extends RecyclerView.Adapter<RVAdapterCall.ViewHolder> {
+public class RVAdapterStatus extends RecyclerView.Adapter<RVAdapterStatus.ViewHolder> {
     Context mCtx;
-    ArrayList<CallModel> callModels;
+    ArrayList<StatusModel> statusModels;
 
-    public RVAdapterCall(Context mCtx, ArrayList<CallModel> callModels){
+    public RVAdapterStatus(Context mCtx, ArrayList<StatusModel> statusModels){
         this.mCtx = mCtx;
-        this.callModels = callModels;
+        this.statusModels = statusModels;
     }
 
     @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
+    public RVAdapterStatus.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.list_calls, viewGroup, false);
-        return new ViewHolder(view);
+        return new RVAdapterStatus.ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        final CallModel call = callModels.get(position);
+    public void onBindViewHolder(@NonNull RVAdapterStatus.ViewHolder holder, int position) {
+        final StatusModel call = statusModels.get(position);
         holder.tvName.setText(call.getName());
         holder.tvTime.setText(call.getTime());
     }
 
     @Override
     public int getItemCount() {
-        return callModels.size();
+        return statusModels.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
