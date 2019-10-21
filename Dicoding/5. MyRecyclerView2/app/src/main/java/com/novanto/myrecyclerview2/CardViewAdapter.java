@@ -55,6 +55,13 @@ public class CardViewAdapter extends RecyclerView.Adapter<CardViewAdapter.CardVi
             }
         });
 
+        holder.itemView.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Toast.makeText(holder.itemView.getContext(), "Share" + listHero.get(holder.getAdapterPosition()).getName(),Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 
     @Override

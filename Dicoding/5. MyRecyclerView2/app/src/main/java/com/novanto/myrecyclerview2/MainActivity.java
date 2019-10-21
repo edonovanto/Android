@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -30,16 +31,34 @@ public class MainActivity extends AppCompatActivity {
         showRecyclerList();
     }
 
+    private void showSelectedHero(Hero hero){
+        Toast.makeText(this, "Kamu memilih " + hero.getName(), Toast.LENGTH_SHORT).show();
+    }
+
     private void showRecyclerList() {
         rvHeroes.setLayoutManager(new LinearLayoutManager(this));
         ListHeroAdapter listHeroAdapter = new ListHeroAdapter(list);
         rvHeroes.setAdapter(listHeroAdapter);
+
+        listHeroAdapter.setOnItemClickCallBack(new ListHeroAdapter.OnItemClickCallBack(){
+            @Override
+            public void onItemClicked(Hero data){
+                showSelectedHero(data);
+            }
+        });
     }
 
     private void showRecyclerGrid(){
         rvHeroes.setLayoutManager(new GridLayoutManager(this,2));
         GridHeroAdapter gridHeroAdapter = new GridHeroAdapter(list);
         rvHeroes.setAdapter(gridHeroAdapter);
+
+        gridHeroAdapter.setOnItemClickCallBack(new GridHeroAdapter.OnItemClickCallBack(){
+            @Override
+            public void onItemClicked(Hero data){
+                showSelectedHero(data);
+            }
+        });
     }
 
     private void showRecyclerCardView(){
