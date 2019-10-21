@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MyRecyclerView2</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="detail">Detail Pahwalan</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="card">Card View</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
 </resources>
