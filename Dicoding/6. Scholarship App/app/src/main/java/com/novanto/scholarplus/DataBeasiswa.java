@@ -1,5 +1,7 @@
 package com.novanto.scholarplus;
 
+import java.util.ArrayList;
+
 public class DataBeasiswa {
     private static String[] beasiswaNames = {
             "Peningkatan Prestasi Akademik",
@@ -99,4 +101,30 @@ public class DataBeasiswa {
                     "6.\tBukan merupakan karyawan/anggota keluarga dari karyawan AMINEF/Kedutaan Besar AS/Departemen Luar Negeri AS.\n" +
                     "7.\tTidak sedang menerima beasiswa lainnya pada saat pendaftaran beasiswa ini.\n"
     };
+
+    private static int[] beasiswaImage = {
+            R.drawable.ppa,
+            R.drawable.bidikmisi,
+            R.drawable.adaro,
+            R.drawable.sakura,
+            R.drawable.glints,
+            R.drawable.btn,
+            R.drawable.dataprint,
+            R.drawable.digitalent,
+            R.drawable.paragon,
+            R.drawable.aminef
+    };
+
+    static ArrayList<Beasiswa> getListData(){
+        ArrayList<Beasiswa> list = new ArrayList<>();
+        for (int position = 0; position<beasiswaNames.length;position++){
+            Beasiswa beasiswa = new Beasiswa();
+            beasiswa.setName(beasiswaNames[position]);
+            beasiswa.setDetail(beasiswaDetails[position]);
+            beasiswa.setSyarat(syaratBeasiswa[position]);
+            beasiswa.setPhoto(beasiswaImage[position]);
+            list.add(beasiswa);
+        }
+        return list;
+    }
 }
