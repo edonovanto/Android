@@ -21,6 +21,9 @@
         <activity android:name=".AboutActivity"
             android:parentActivityName=".MainActivity">
         </activity>
+        <activity android:name=".DetailBeasiswa"
+            android:parentActivityName=".MainActivity">
+        </activity>
     </application>
 
 </manifest>

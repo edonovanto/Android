@@ -1,5 +1,6 @@
 package com.novanto.scholarplus;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,11 @@ import java.util.ArrayList;
 
 public class AdapterList extends RecyclerView.Adapter<AdapterList.ListViewHolder> {
     private ArrayList<Beasiswa> listBeasiswa;
+    private OnItemClickCallback onItemClickCallBack;
+
+    public void setOnItemClickCallback(OnItemClickCallback onItemClickCallBack){
+        this.onItemClickCallBack = onItemClickCallBack;
+    }
 
 
     public AdapterList(ArrayList<Beasiswa> list){
@@ -38,6 +44,12 @@ public class AdapterList extends RecyclerView.Adapter<AdapterList.ListViewHolder
                 .into(holder.imgPhoto);
         holder.tvName.setText(beasiswa.getName());
         holder.tvDetail.setText(beasiswa.getDetail());
+        holder.itemView.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                onItemClickCallBack.onItemClicked(listBeasiswa.get(holder.getAdapterPosition()));
+            }
+        });
     }
 
     @Override
@@ -55,5 +67,9 @@ public class AdapterList extends RecyclerView.Adapter<AdapterList.ListViewHolder
             tvName = itemView.findViewById(R.id.tv_name);
             tvDetail = itemView.findViewById(R.id.tv_detail);
         }
+    }
+
+    public interface OnItemClickCallback{
+        void onItemClicked(Beasiswa data);
     }
 }
