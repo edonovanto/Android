@@ -5,10 +5,6 @@
     android:orientation="vertical"
     >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical">
 
         <ImageView
             android:layout_width="match_parent"
@@ -16,7 +12,6 @@
             android:src="@drawable/profile"
             android:layout_gravity="center"/>
 
-    </LinearLayout>
 
 
     <TextView
@@ -31,6 +26,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/developer"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/detail_me"
         android:gravity="center"/>
 
 </LinearLayout>

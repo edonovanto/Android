@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Main Activity");
+        actionBar.setTitle("Home");
 
         rvBeasiswa = findViewById(R.id.rv_beasiswa);
         rvBeasiswa.setHasFixedSize(true);
