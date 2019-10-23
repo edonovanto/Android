@@ -31,10 +31,10 @@
                 android:layout_height="wrap_content"
                 android:text="@string/namaBeasiswa"
                 android:layout_marginBottom="8dp"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:textStyle="bold"/>
 
-            <TextView
+            <com.codesgood.views.JustifiedTextView
                 android:id="@+id/tv_detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -43,6 +43,14 @@
                 android:layout_marginBottom="15dp"/>
 
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syarat"
+                android:layout_marginBottom="8dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <com.codesgood.views.JustifiedTextView
                 android:id="@+id/tv_syarat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -57,7 +65,7 @@
                 android:text="Daftar Beasiswa"
                 android:textStyle="bold"
                 android:textColor="@android:color/white"
-                android:background="@color/colorPrimary"
+                android:background="@drawable/rounded_button"
                 android:layout_margin="10dp"/>
 
         </LinearLayout>

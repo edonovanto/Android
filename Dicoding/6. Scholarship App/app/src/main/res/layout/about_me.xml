@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_gravity="center_vertical"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -12,7 +12,9 @@
         android:layout_height="200dp"
         android:src="@drawable/profile"
         android:layout_gravity="center"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="3dp"/>
 
 
     <TextView
@@ -20,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="@string/about_me"
         android:gravity="center"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="10dp"/>
 
@@ -28,12 +30,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/developer"
+        android:layout_marginBottom="8dp"
+        android:textSize="17sp"
         android:gravity="center"/>
 
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
+        android:textStyle="italic"
         android:layout_marginStart="16dp"
         android:text="@string/detail_me"
         android:gravity="center"/>
