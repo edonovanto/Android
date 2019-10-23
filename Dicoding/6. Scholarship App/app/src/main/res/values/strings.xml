@@ -3,4 +3,6 @@
     <string name="namaBeasiswa">Nama Beasiswa</string>
     <string name="detailBeasiswa">Detail Beasiswa</string>
     <string name="syaratBeasiswa">Syarat Beasiswa</string>
+    <string name="about_me">About Me</string>
+    <string name="developer">Edo Novanto</string>
 </resources>
