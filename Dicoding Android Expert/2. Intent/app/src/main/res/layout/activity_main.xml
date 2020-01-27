@@ -29,5 +29,28 @@
         android:text="move with object"
         android:layout_marginBottom="16dp"/>
 
+    <Button
+        android:id="@+id/btn_dial_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dial number"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_move_for_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOVE WITH RESULT"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Result"
+        android:textSize="24sp"/>
+
+
 
 </LinearLayout>
