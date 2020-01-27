@@ -22,5 +22,12 @@
         android:text="move with data"
         android:layout_marginBottom="16dp"/>
 
+    <Button
+        android:id="@+id/btn_move_act_obj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="move with object"
+        android:layout_marginBottom="16dp"/>
+
 
 </LinearLayout>
