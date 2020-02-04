@@ -60,13 +60,13 @@ public class MainActivity extends AppCompatActivity{
         heroes = new ArrayList<>();
 
         for (int i = 0; i < dataName.length; i++){
-            Hero hero = new Hero();
+            Hero hero = new Hero(); //buat object Hero
             hero.setPhoto(dataPhoto.getResourceId(i,-1));
             hero.setName(dataName[i]);
             hero.setDescription(dataDescription[i]);
-            heroes.add(hero);
+            heroes.add(hero); //menambahkan object Hero ke dalam Arraylist
         }
 
-        adapter.setHeroes(heroes);
+        adapter.setHeroes(heroes); //kirim nilai array untuk ditampung
     }
 }
