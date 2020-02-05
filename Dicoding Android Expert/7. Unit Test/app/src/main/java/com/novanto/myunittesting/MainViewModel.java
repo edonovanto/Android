@@ -21,6 +21,6 @@ public class MainViewModel {
     }
 
     double getSurface(){
-        return cubiodModel.getVolume();
+        return cubiodModel.getSurfaceArea();
     }
 }

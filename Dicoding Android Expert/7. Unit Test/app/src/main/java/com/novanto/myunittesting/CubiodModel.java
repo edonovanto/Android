@@ -17,6 +17,7 @@ public class CubiodModel {
     double getVolume() {
         return width * length * height;
     }
+
     public double getSurfaceArea() {
         double wl = width * length;
         double wh = width * height;
