@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -16,8 +21,8 @@
 
         <ImageView
             android:id="@+id/img_photo"
-            android:layout_width="150dp"
-            android:layout_height="250dp"
+            android:layout_width="170dp"
+            android:layout_height="270dp"
             android:scaleType="fitXY" />
 
         <TextView
@@ -27,7 +32,8 @@
             android:layout_marginStart="26dp"
             android:layout_toEndOf="@id/img_photo"
             android:text="@string/movie_name"
-            android:textSize="27sp"
+            android:textSize="30sp"
+            android:textColor="@android:color/black"
             android:textStyle="bold" />
 
         <TextView
@@ -40,7 +46,7 @@
             android:layout_toRightOf="@id/img_photo"
             android:ellipsize="end"
             android:text="@string/rating"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:textColor="@android:color/holo_red_light"
             android:textStyle="bold"/>
 
@@ -53,6 +59,7 @@
             android:layout_marginStart="26dp"
             android:layout_marginTop="10dp"
             android:text="Runtime"
+
             android:textStyle="bold"/>
 
         <TextView
@@ -126,6 +133,7 @@
         android:ellipsize="end"
         android:text="Deskripsi Film"
         android:textSize="20sp"
+        android:textColor="@android:color/black"
         android:textStyle="bold"/>
 
     <TextView
@@ -143,10 +151,11 @@
         android:ellipsize="end"
         android:text="Lihat Trailer"
         android:textSize="20sp"
+        android:textColor="@android:color/black"
         android:textStyle="bold"/>
 
     <VideoView
-        android:id="@+id/movie_trailer"
+        android:id="@+id/youtube_view"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginTop="10dp"/>
@@ -162,3 +171,5 @@
         android:text="Pesan Tiket" />
 
 </LinearLayout>
+
+</ScrollView>

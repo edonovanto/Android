@@ -3,6 +3,23 @@
     <string name="movie_name">Movie Name</string>
     <string name="lorem">Movie Description</string>
     <string name="rating">Movie Rating</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+
+    <string-array name="movie_rating">
+        <item>83%</item>
+        <item>66%</item>
+        <item>79%</item>
+        <item>80%</item>
+        <item>81%</item>
+        <item>73%</item>
+        <item>60%</item>
+        <item>83%</item>
+        <item>80%</item>
+        <item>75%</item>
+    </string-array>
 
     <string-array name="movie_title">
         <item>Avenger Infinity War</item>
@@ -30,17 +47,41 @@
         <item>Many thousands of years in the future, Earth\’s cities roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive traction cities, the old London, Tom Natsworthy has an unexpected encounter with a mysterious young woman from the wastelands who will change the course of his life forever.</item>
     </string-array>
 
-    <string-array name="movie_actor">
-        <item>Avenger Infinity War</item>
-        <item>Venom</item>
-        <item>Spider-Man: Into the Spider-Verse</item>
-        <item>Bohemian Rhapsody</item>
-        <item>How to Train Your Dragon: The Hidden World </item>
-        <item>Bumblebee</item>
-        <item>Creed II</item>
-        <item>Aquaman</item>
-        <item>A Star Is Born</item>
+    <string-array name="movie_runtime">
+        <item>• 2h 29m</item>
+        <item>• 1h 25m</item>
+        <item>• 1h 57m</item>
+        <item>• 2h 15m</item>
+        <item>• 1h 44m</item>
+        <item>• 1h 54m</item>
+        <item>• 2h 10m</item>
+        <item>• 2h 24m</item>
+        <item>• 2h 16m</item>
         <item></item>
+    </string-array>
+
+    <string-array name="movie_revenue">
+        <item>• $2,046,239,637.00</item>
+        <item>• $855,013,954.00</item>
+        <item>• $375,450,417.00</item>
+        <item>• $894,027,543.00</item>
+        <item>• $517,526,875.00</item>
+        <item>• $465,895,025.00</item>
+        <item>• $137,944,327.00</item>
+        <item>• $1,143,689,193.00</item>
+        <item>• $433,888,866.00</item>
+    </string-array>
+
+    <string-array name="movie_genres">
+        <item>• Adventure, Action, Science Fiction</item>
+        <item>• Science Fiction, Action </item>
+        <item>• Animation, Science Fiction, Adventure, Comedy</item>
+        <item>• Drama, Music</item>
+        <item>• Animation, Family, Adventure</item>
+        <item>• Action, Adventure, Science Fiction</item>
+        <item>• Drama</item>
+        <item>• Action, Adventure, Fantasy</item>
+        <item>• Drama, Romance, Music</item>
     </string-array>
 
     <array name="movie_photo">
