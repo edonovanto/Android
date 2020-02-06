@@ -12,12 +12,20 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MoveWithDetailActivity extends AppCompatActivity implements View.OnClickListener {
-    private String title,desc,runtime,revenue,genre,rating;
+import com.google.android.youtube.player.YouTubeBaseActivity;
+import com.google.android.youtube.player.YouTubeInitializationResult;
+import com.google.android.youtube.player.YouTubePlayer;
+import com.google.android.youtube.player.YouTubePlayerView;
+
+public class MoveWithDetailActivity extends YouTubeBaseActivity implements View.OnClickListener {
+    private String title,desc,runtime,revenue,genre,rating,trailer;
     private int img;
     private TextView tv_title, tv_desc, tv_revenue, tv_genre, tv_runtime, tv_rating;
     private ImageView imgView;
     private Button btn_pesan;
+    YouTubePlayerView youTubePlayerView;
+    YouTubePlayer.OnInitializedListener onInitializedListener;
+    private static final int RECOVERY_REQUEST = 1;
 
 
     @Override
@@ -32,8 +40,24 @@ public class MoveWithDetailActivity extends AppCompatActivity implements View.On
         tv_runtime = findViewById(R.id.txt_runtime);
         tv_rating = findViewById(R.id.txt_rating);
         imgView = findViewById(R.id.img_photo);
+
+        youTubePlayerView = findViewById(R.id.youtube_view);
+        onInitializedListener = new YouTubePlayer.OnInitializedListener() {
+            @Override
+            public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
+                youTubePlayer.cueVideo(trailer);
+            }
+
+            @Override
+            public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult errorReason) {
+            }
+        };
+
+        youTubePlayerView.initialize("AIzaSyA6J62Kp9Ihb5KhPdP1kIdiCVDXGb_wNRY",onInitializedListener);
+
         this.btn_pesan = findViewById(R.id.btn_pesan);
         this.btn_pesan.setOnClickListener(this);
+
 
         getItem();
 
@@ -52,7 +76,6 @@ public class MoveWithDetailActivity extends AppCompatActivity implements View.On
     }
 
     void getItem(){
-//        Intent intent = getIntent();
         Movie movie = getIntent().getParcelableExtra("item");
 
         title = movie.getTitle();
@@ -62,6 +85,7 @@ public class MoveWithDetailActivity extends AppCompatActivity implements View.On
         genre = movie.getGenre();
         img = movie.getPhoto();
         rating = movie.getRating();
+        trailer = movie.getTrailer();
     }
 
     @Override

@@ -10,6 +10,15 @@ public class Movie implements Parcelable {
     private String revenue;
     private String runtime;
     private String rating;
+    private String trailer;
+
+    public String getTrailer() {
+        return trailer;
+    }
+
+    public void setTrailer(String trailer) {
+        this.trailer = trailer;
+    }
 
     public String getRating() {
         return rating;
@@ -33,6 +42,7 @@ public class Movie implements Parcelable {
         runtime = in.readString();
         photo = in.readInt();
         rating = in.readString();
+        trailer = in.readString();
     }
 
     public static final Creator<Movie> CREATOR = new Creator<Movie>() {
@@ -61,6 +71,7 @@ public class Movie implements Parcelable {
         parcel.writeString(runtime);
         parcel.writeInt(photo);
         parcel.writeString(rating);
+        parcel.writeString(trailer);
     }
 
     public String getGenre() {

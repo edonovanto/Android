@@ -154,11 +154,17 @@
         android:textColor="@android:color/black"
         android:textStyle="bold"/>
 
-    <VideoView
+<!--    <VideoView-->
+<!--        android:id="@+id/youtube_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginTop="10dp"/>-->
+
+    <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youtube_view"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btn_pesan"

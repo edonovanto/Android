@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private String[] movieRating;
     private String[] movieRuntime;
     private String[] movieRevenue;
+    private String[] movieTrailer;
     private TypedArray movieImg;
     private ArrayList<Movie> movies;
 
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
             movie.setRating(movieRating[i]);
             movie.setRevenue(movieRevenue[i]);
             movie.setRuntime(movieRuntime[i]);
+            movie.setTrailer(movieTrailer[i]);
             movie.setPhoto(movieImg.getResourceId(i,-1));
             movies.add(movie);
         }
@@ -75,5 +77,6 @@ public class MainActivity extends AppCompatActivity {
         movieRevenue = getResources().getStringArray(R.array.movie_revenue);
         movieRuntime = getResources().getStringArray(R.array.movie_runtime);
         movieRating = getResources().getStringArray(R.array.movie_rating);
+        movieTrailer = getResources().getStringArray(R.array.movie_trailer);
     }
 }
