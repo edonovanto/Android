@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">mySimpleFragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question_article">Do you like the article?</string>
+    <string name="yes_choice">Thanks for your respond</string>
+    <string name="no_choice">We\'re sorry</string>
+    <string name="article">
+        Badan Meteorologi Klimatologi dan Geofisika atau BMKG menyebut curah hujan di wilayah DKI Jakarta mulai menurun. Hanya saja warga Jakarta harus tetap waspada potensi terjadi banjir karena curah hujan di wilayah hulu yang diprakirakan masih tinggi.
+
+        Untuk beberapa hari ke depan DKI Jakarta masih berpotensi hujan lebat, namun dengan curah hujan yang akan semakin berkurang.
+
+        "Meskipun curah hujan di DKI Jakarta trennya mulai menurun, namun di wilayah hulunya di Jawa Barat curah hujan masih cukup tinggi, oleh karena itu harus tetap meningkatkan kewaspadaan banjir," kata Deputi Bidang Meteorologi BMKG Mulyono R Prabowo mengatakan di Jakarta, Sabtu (8/2/2020).
+    </string>
+</resources>

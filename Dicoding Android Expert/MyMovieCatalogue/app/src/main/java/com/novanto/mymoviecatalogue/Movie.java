@@ -11,6 +11,7 @@ public class Movie implements Parcelable {
     private String runtime;
     private String rating;
     private String trailer;
+    private int photo;
 
     public String getTrailer() {
         return trailer;
@@ -28,7 +29,6 @@ public class Movie implements Parcelable {
         this.rating = rating;
     }
 
-    private int photo;
 
     Movie(){
 
