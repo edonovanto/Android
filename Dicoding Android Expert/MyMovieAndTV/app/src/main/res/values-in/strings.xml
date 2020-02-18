@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+
+    <string name="app_name">Film dan TV Seri</string>
+    <string name="movie_tab_title">Film</string>
+    <string name="tv_tab_title">TV Seri</string>
+
+    <string name="movie_name">Nama Film</string>
+    <string name="lorem">Deskripsi Film</string>
+    <string name="rating">Rating Film</string>
+
+    <string-array name="movie_desc">
+        <item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
+        <item>Jurnalis investigasi Eddie Brock berusaha untuk kembali setelah skandal, tetapi secara tidak sengaja menjadi tuan rumah Venom, seorang simbiot alien yang sangat kuat dan sakti. Segera, ia harus mengandalkan kekuatan barunya untuk melindungi dunia dari organisasi bayangan yang mencari simbiosis mereka sendiri.</item>
+        <item>Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Ketika Wilson "Kingpin" Fisk menggunakan collider super, yang lain dari seberang Spider-Verse diangkut ke dimensi ini.</item>
+        <item>Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock n roll Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercury yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band tetap bersama di tengah kesuksesan dan kelebihan.</item>
+        <item>Ketika Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless \'dari pasangan yang liar dan sulit ditangkap menarik Night Fury pergi. Ketika bahaya meningkat di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka.</item>
+        <item>Dalam pelarian pada tahun 1987, Bumblebee menemukan perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie menghidupkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa.</item>
+        <item>Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan masa lalu keluarganya, Adonis Creed menghadapi tantangan hidupnya.</item>
+        <item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan. Yang menghalangi jalannya adalah Arthur Curry, saudara setengah manusia, setengah saudara lelaki Atlantis dan pewaris sejati takhta.</item>
+        <item>Musisi kawakan Jackson Maine menemukan - dan jatuh cinta dengan - artis yang sedang berjuang Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi - sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karir Ally lepas landas, sisi pribadi dari hubungan mereka hancur, seperti Jack berjuang pertempuran yang sedang berlangsung dengan setan internal sendiri.</item>
+        <item>Beribu-ribu tahun di masa depan, kota-kota Bumi berkeliaran di dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu kota traksi besar ini, London tua, Tom Natsworthy mengalami perjumpaan tak terduga dengan seorang wanita muda misterius dari daerah terlantar yang akan mengubah jalan hidupnya selamanya.</item>
+    </string-array>
+
+    <string-array name="movie_genres">
+        <item>• Adventure, Action, Science Fiction</item>
+        <item>• Science Fiction, Action </item>
+        <item>• Animation, Science Fiction, Adventure, Comedy</item>
+        <item>• Drama, Music</item>
+        <item>• Animation, Family, Adventure</item>
+        <item>• Action, Adventure, Science Fiction</item>
+        <item>• Drama</item>
+        <item>• Action, Adventure, Fantasy</item>
+        <item>• Drama, Romance, Music</item>
+    </string-array>
+
+    <string-array name="movie_revenue">
+        <item>• $2,046,239,637.00</item>
+        <item>• $855,013,954.00</item>
+        <item>• $375,450,417.00</item>
+        <item>• $894,027,543.00</item>
+        <item>• $517,526,875.00</item>
+        <item>• $465,895,025.00</item>
+        <item>• $137,944,327.00</item>
+        <item>• $1,143,689,193.00</item>
+        <item>• $433,888,866.00</item>
+    </string-array>
+
+    <string-array name="movie_runtime">
+        <item>• 2h 29m</item>
+        <item>• 1h 25m</item>
+        <item>• 1h 57m</item>
+        <item>• 2h 15m</item>
+        <item>• 1h 44m</item>
+        <item>• 1h 54m</item>
+        <item>• 2h 10m</item>
+        <item>• 2h 24m</item>
+        <item>• 2h 16m</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="movie_rating">
+        <item>83%</item>
+        <item>66%</item>
+        <item>79%</item>
+        <item>80%</item>
+        <item>81%</item>
+        <item>73%</item>
+        <item>60%</item>
+        <item>83%</item>
+        <item>80%</item>
+        <item>75%</item>
+    </string-array>
+
+</resources>
