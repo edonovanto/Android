@@ -1,6 +1,7 @@
 package com.novanto.mymovieandtv;
 
 
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 
@@ -52,12 +53,24 @@ public class TVFragment extends Fragment {
 
     private ArrayList<Movie> getList(){
         String[] name = getResources().getStringArray(R.array.tv_title);
+        String[] desc = getResources().getStringArray(R.array.tv_desc);
+        String[] genre = getResources().getStringArray(R.array.tv_genres);
+        String[] rating = getResources().getStringArray(R.array.tv_rating);
+        String[] revenue = getResources().getStringArray(R.array.tv_revenue);
+        String[] runTime = getResources().getStringArray(R.array.tv_runtime);
+        String[] trailer = getResources().getStringArray(R.array.tv_trailer);
         TypedArray photo = getResources().obtainTypedArray(R.array.tv_photo);
 
         ArrayList<Movie> arrayList = new ArrayList<>();
-        for (int i =0; i<name.length;i++){
+        for (int i =0; i<name.length-1;i++){
             Movie movie = new Movie();
             movie.setName(name[i]);
+            movie.setDesc(desc[i]);
+            movie.setGenre(genre[i]);
+            movie.setRating(rating[i]);
+            movie.setRevenue(revenue[i]);
+            movie.setRuntime(runTime[i]);
+            movie.setTrailer(trailer[i]);
             movie.setPhoto(photo.getResourceId(i,-1));
             arrayList.add(movie);
         }
@@ -68,5 +81,15 @@ public class TVFragment extends Fragment {
         recyclerView.setLayoutManager(new GridLayoutManager(recyclerView.getContext(), 2));
         TVAdapter gridHeroAdapter = new TVAdapter(list);
         recyclerView.setAdapter(gridHeroAdapter);
+
+        gridHeroAdapter.setOnItemClickCallback(new TVAdapter.OnItemClickCallback() {
+            @Override
+            public void onItemClicked(Movie movie) {
+                Intent intent = new Intent(getContext(), DetailMovieActivity.class);
+                intent.putExtra("item",movie);
+
+                startActivity(intent);
+            }
+        });
     }
 }

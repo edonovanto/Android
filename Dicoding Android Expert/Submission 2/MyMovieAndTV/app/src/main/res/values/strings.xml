@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">Movie and TV Show</string>
+    <string name="movie_tab_title">Movie</string>
+    <string name="tv_tab_title">TV Show</string>
+
+    <string name="movie_name">Movie Name</string>
+    <string name="lorem">Movie Description</string>
+    <string name="rating">Movie Rating</string>
+
+    <string name="change_language_settings">Change Language Settings</string>
+
+    <string name="ticket">Book Ticket</string>
+
+    <string-array name="movie_title">
+        <item>Avenger Infinity War</item>
+        <item>Venom</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>Bohemian Rhapsody</item>
+        <item>How to Train Your Dragon: The Hidden World </item>
+        <item>Bumblebee</item>
+        <item>Creed II</item>
+        <item>Aquaman</item>
+        <item>A Star Is Born</item>
+        <item>Mortal Engines</item>
+    </string-array>
+
+    <string-array name="tv_title">
+        <item>Arrow</item>
+        <item>Dragon Ball</item>
+        <item>Fairy Tail</item>
+        <item>The Flash</item>
+        <item>Naruto Shippuden</item>
+        <item>NCIS</item>
+        <item>River Dale</item>
+        <item>Shameless</item>
+        <item>Supergirl</item>
+        <item>The Simps</item>
+        <item>The Umberella</item>
+        <item>The Walking Dead</item>
+    </string-array>
+
+    <string-array name="tv_trailer">
+        <item>SaYpZVp7Ap8</item>
+        <item>RoAG2g8oXQw</item>
+        <item>AtlsjFlcRZ0</item>
+        <item>nrqStOyyvgI</item>
+        <item>Qyonn5Vbg7s</item>
+        <item>BhtDgn31XZo</item>
+        <item>HxtLlByaYTc</item>
+        <item>QwPUPsmNtOY</item>
+        <item>mlgL6FbqsVI</item>
+        <item>XPG0MqIcby8</item>
+        <item>0DAmWHxeoKw</item>
+        <item>R1v0uFms68U</item>
+    </string-array>
+
+    <string-array name="movie_genres">
+        <item>• Adventure, Action, Science Fiction</item>
+        <item>• Science Fiction, Action </item>
+        <item>• Animation, Science Fiction, Adventure, Comedy</item>
+        <item>• Drama, Music</item>
+        <item>• Animation, Family, Adventure</item>
+        <item>• Action, Adventure, Science Fiction</item>
+        <item>• Drama</item>
+        <item>• Action, Adventure, Fantasy</item>
+        <item>• Drama, Romance, Music</item>
+    </string-array>
+
+    <string-array name="tv_genres">
+        <item>• Adventure, Action, Science Fiction</item>
+        <item>• Science Fiction, Action </item>
+        <item>• Animation, Science Fiction, Adventure, Comedy</item>
+        <item>• Drama, Music</item>
+        <item>• Animation, Family, Adventure</item>
+        <item>• Action, Adventure, Science Fiction</item>
+        <item>• Drama</item>
+        <item>• Action, Adventure, Fantasy</item>
+        <item>• Drama, Romance, Music</item>
+        <item>• Drama, Music</item>
+        <item>• Animation, Family, Adventure</item>
+    </string-array>
+
+    <string-array name="movie_revenue">
+        <item>• $2,046,239,637.00</item>
+        <item>• $855,013,954.00</item>
+        <item>• $375,450,417.00</item>
+        <item>• $894,027,543.00</item>
+        <item>• $517,526,875.00</item>
+        <item>• $465,895,025.00</item>
+        <item>• $137,944,327.00</item>
+        <item>• $1,143,689,193.00</item>
+        <item>• $433,888,866.00</item>
+    </string-array>
+
+    <string-array name="tv_revenue">
+        <item>• $2,046,239,637.00</item>
+        <item>• $855,013,954.00</item>
+        <item>• $375,450,417.00</item>
+        <item>• $894,027,543.00</item>
+        <item>• $517,526,875.00</item>
+        <item>• $465,895,025.00</item>
+        <item>• $137,944,327.00</item>
+        <item>• $1,143,689,193.00</item>
+        <item>• $433,888,866.00</item>
+        <item>• $517,526,875.00</item>
+        <item>• $465,895,025.00</item>
+    </string-array>
+
+    <string-array name="movie_runtime">
+        <item>• 2h 29m</item>
+        <item>• 1h 25m</item>
+        <item>• 1h 57m</item>
+        <item>• 2h 15m</item>
+        <item>• 1h 44m</item>
+        <item>• 1h 54m</item>
+        <item>• 2h 10m</item>
+        <item>• 2h 24m</item>
+        <item>• 2h 16m</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="tv_runtime">
+        <item>• 2h 29m</item>
+        <item>• 1h 25m</item>
+        <item>• 1h 57m</item>
+        <item>• 2h 15m</item>
+        <item>• 1h 44m</item>
+        <item>• 1h 54m</item>
+        <item>• 2h 10m</item>
+        <item>• 2h 24m</item>
+        <item>• 2h 16m</item>
+        <item>• 1h 44m</item>
+        <item>• 1h 54m</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="movie_rating">
+        <item>83%</item>
+        <item>66%</item>
+        <item>79%</item>
+        <item>80%</item>
+        <item>81%</item>
+        <item>73%</item>
+        <item>60%</item>
+        <item>83%</item>
+        <item>80%</item>
+        <item>75%</item>
+    </string-array>
+
+    <string-array name="tv_rating">
+        <item>83%</item>
+        <item>66%</item>
+        <item>79%</item>
+        <item>80%</item>
+        <item>81%</item>
+        <item>73%</item>
+        <item>60%</item>
+        <item>83%</item>
+        <item>80%</item>
+        <item>81%</item>
+        <item>73%</item>
+        <item>75%</item>
+    </string-array>
+
+    <string-array name="movie_desc">
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.</item>
+        <item>Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson "Kingpin" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.</item>
+        <item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock n roll band Queen in 1970. Hit songs become instant classics. When Mercury\'s increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.</item>
+        <item>As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.</item>
+        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</item>
+        <item>Between personal obligations and training for his next big fight against an opponent with ties to his family\'s past, Adonis Creed is up against the challenge of his life.</item>
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm\'s half-human, half-Atlantean brother and true heir to the throne.</item>
+        <item>Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally\'s career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.</item>
+        <item>Many thousands of years in the future, Earth\’s cities roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive traction cities, the old London, Tom Natsworthy has an unexpected encounter with a mysterious young woman from the wastelands who will change the course of his life forever.</item>
+    </string-array>
+
+    <string-array name="tv_desc">
+        <item>Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow.</item>
+        <item>Five years have passed since the fight with Piccolo Jr., and Goku now has a son, Gohan. The peace is interrupted when an alien named Raditz arrives on Earth in a spacecraft and tracks down Goku, revealing to him that that they are members of a near-extinct warrior race called the Saiyans.</item>
+        <item>Lucy is a 17-year-old girl, who wants to be a full-fledged mage. One day when visiting Harujion Town, she meets Natsu, a young man who gets sick easily by any type of transportation. But Natsu isn\'t just any ordinary kid, he\'s a member of one of the world\'s most infamous mage guilds: Fairy Tail.</item>
+        <item>After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only "meta-human" who was created in the wake of the accelerator explosion — and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won\'t be long before the world learns what Barry Allen has become…The Flash.</item>
+        <item>Naruto was a young shinobi with an incorrigible knack for mischief. He achieved his dream to become the greatest ninja in the village and his face sits atop the Hokage Monument. But this is not his story. A new generation of ninja are ready to take the stage, led by Naruto\'s own son, Boruto.</item>
+        <item>From murder and espionage to terrorism and stolen submarines, a team of special agents investigates any crime that has a shred of evidence connected to Navy and Marine Corps personnel, regardless of rank or position.</item>
+        <item>Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale\’s wholesome facade.</item>
+        <item>Chicagoan Frank Gallagher is the proud single dad of six smart, industrious, independent kids, who without him would be… perhaps better off. When Frank\'s not at the bar spending what little money they have, he\'s passed out on the floor. But the kids have found ways to grow up in spite of him. They may not be like any family you know, but they make no apologies for being exactly who they are.</item>
+        <item>Twenty-four-year-old Kara Zor-El, who was taken in by the Danvers family when she was 13 after being sent away from Krypton, must learn to embrace her powers after previously hiding them. The Danvers teach her to be careful with her powers, until she has to reveal them during an unexpected disaster, setting her on her journey of heroism.</item>
+        <item>Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.</item>
+        <item>A dysfunctional family of superheroes comes together to solve the mystery of their father\'s death, the threat of the apocalypse and more.</item>
+        <item>Sheriff\'s deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.</item>
+    </string-array>
+
+    <array name="movie_photo">
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_venom</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_mortalengine</item>
+    </array>
+
+    <string-array name="movie_trailer">
+        <item>6ZfuNTqbHE8</item>
+        <item>u9Mv98Gr5pY</item>
+        <item>tg52up16eq0</item>
+        <item>mP0VHJYFOAU</item>
+        <item>SkcucKDrbOI</item>
+        <item>lcwmDAYt22k</item>
+        <item>cPNVNqn4T9I</item>
+        <item>WDkg3h8PCVU</item>
+        <item>nSbzyEJ8X9E</item>
+        <item>IRsFc2gguEg</item>
+    </string-array>
+
+    <array name="tv_photo">
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_dragon_ball</item>
+        <item>@drawable/poster_fairytail</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_naruto_shipudden</item>
+        <item>@drawable/poster_ncis</item>
+        <item>@drawable/poster_riverdale</item>
+        <item>@drawable/poster_shameless</item>
+        <item>@drawable/poster_supergirl</item>
+        <item>@drawable/poster_the_simpson</item>
+        <item>@drawable/poster_the_umbrella</item>
+        <item>@drawable/poster_the_walking_dead</item>
+    </array>
+
+
+</resources>

@@ -16,6 +16,11 @@ import java.util.ArrayList;
 
 public class TVAdapter extends RecyclerView.Adapter<TVAdapter.tvViewHolder> {
     ArrayList<Movie> list;
+    private OnItemClickCallback onItemClickCallback;
+
+    public void setOnItemClickCallback(OnItemClickCallback onItemClickCallback){
+        this.onItemClickCallback = onItemClickCallback;
+    }
 
     public TVAdapter(ArrayList<Movie> list) {
         this.list = list;
@@ -29,7 +34,7 @@ public class TVAdapter extends RecyclerView.Adapter<TVAdapter.tvViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull tvViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final tvViewHolder holder, int position) {
         Movie movie = list.get(position);
 
         Glide.with(holder.itemView.getContext())
@@ -38,6 +43,17 @@ public class TVAdapter extends RecyclerView.Adapter<TVAdapter.tvViewHolder> {
                 .into(holder.imageView);
 
         holder.tvName.setText(movie.getName());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onItemClickCallback.onItemClicked(list.get(holder.getAdapterPosition()));
+            }
+        });
+    }
+
+    public interface OnItemClickCallback{
+        void onItemClicked(Movie movie);
     }
 
     @Override

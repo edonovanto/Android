@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+
+    <string name="app_name">Film dan TV Seri</string>
+    <string name="movie_tab_title">Film</string>
+    <string name="tv_tab_title">TV Seri</string>
+
+    <string name="movie_name">Nama Film</string>
+    <string name="lorem">Deskripsi Film</string>
+    <string name="rating">Rating Film</string>
+
+    <string name="ticket">Pesan Tiket</string>
+
+    <string-array name="movie_desc">
+        <item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
+        <item>Jurnalis investigasi Eddie Brock berusaha untuk kembali setelah skandal, tetapi secara tidak sengaja menjadi tuan rumah Venom, seorang simbiot alien yang sangat kuat dan sakti. Segera, ia harus mengandalkan kekuatan barunya untuk melindungi dunia dari organisasi bayangan yang mencari simbiosis mereka sendiri.</item>
+        <item>Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Ketika Wilson "Kingpin" Fisk menggunakan collider super, yang lain dari seberang Spider-Verse diangkut ke dimensi ini.</item>
+        <item>Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock n roll Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercury yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band tetap bersama di tengah kesuksesan dan kelebihan.</item>
+        <item>Ketika Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless \'dari pasangan yang liar dan sulit ditangkap menarik Night Fury pergi. Ketika bahaya meningkat di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka.</item>
+        <item>Dalam pelarian pada tahun 1987, Bumblebee menemukan perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie menghidupkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa.</item>
+        <item>Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan masa lalu keluarganya, Adonis Creed menghadapi tantangan hidupnya.</item>
+        <item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan. Yang menghalangi jalannya adalah Arthur Curry, saudara setengah manusia, setengah saudara lelaki Atlantis dan pewaris sejati takhta.</item>
+        <item>Musisi kawakan Jackson Maine menemukan - dan jatuh cinta dengan - artis yang sedang berjuang Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi - sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karir Ally lepas landas, sisi pribadi dari hubungan mereka hancur, seperti Jack berjuang pertempuran yang sedang berlangsung dengan setan internal sendiri.</item>
+        <item>Beribu-ribu tahun di masa depan, kota-kota Bumi berkeliaran di dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu kota traksi besar ini, London tua, Tom Natsworthy mengalami perjumpaan tak terduga dengan seorang wanita muda misterius dari daerah terlantar yang akan mengubah jalan hidupnya selamanya.</item>
+    </string-array>
+
+    <string-array name="tv_desc">
+        <item>Playboy miliarder manja, Oliver Queen, hilang dan diduga tewas ketika kapal pesiarnya hilang di laut. Dia kembali lima tahun kemudian seorang pria yang berubah, bertekad untuk membersihkan kota sebagai main hakim sendiri bersenjatakan busur.</item>
+        <item>Lima tahun telah berlalu sejak pertarungan dengan Piccolo Jr, dan Goku sekarang memiliki seorang putra, Gohan. Perdamaian terputus ketika seorang asing bernama Raditz tiba di Bumi dengan pesawat ruang angkasa dan melacak Goku, mengungkapkan kepadanya bahwa mereka adalah anggota ras prajurit yang hampir punah yang disebut Saiyan.</item>
+        <item>Lucy adalah seorang gadis berusia 17 tahun, yang ingin menjadi penyihir penuh. Suatu hari ketika mengunjungi Kota Harujion, dia bertemu Natsu, seorang pemuda yang mudah sakit karena segala jenis transportasi. Tapi Natsu bukan sembarang anak biasa, dia anggota dari salah satu serikat penyihir paling terkenal di dunia: Fairy Tail.</item>
+        <item>Setelah akselerator partikel menyebabkan badai aneh, Penyelidik CSI Barry Allen disambar petir dan jatuh koma. Beberapa bulan kemudian dia bangun dengan kekuatan kecepatan super, memberinya kemampuan untuk bergerak melalui Central City seperti malaikat penjaga yang tak terlihat. Meskipun awalnya senang dengan kekuatan barunya, Barry terkejut menemukan bahwa dia bukan satu-satunya manusia meta yang diciptakan setelah ledakan akselerator - dan tidak semua orang menggunakan kekuatan baru mereka untuk kebaikan. Barry bermitra dengan S.T.A.R. Lab dan mendedikasikan hidupnya untuk melindungi yang tidak bersalah. Untuk saat ini, hanya beberapa teman dekat dan rekan yang tahu bahwa Barry secara harfiah adalah manusia tercepat yang hidup, tetapi tidak lama lagi dunia akan mengetahui apa yang menjadi Barry Allen … The Flash.</item>
+        <item>Naruto adalah seorang shinobi muda dengan bakat yang tidak dapat diperbaiki untuk kerusakan. Dia mencapai mimpinya untuk menjadi ninja terhebat di desa dan wajahnya duduk di atas Monumen Hokage. Tapi ini bukan ceritanya. Generasi baru ninja siap naik ke panggung, dipimpin oleh putra Naruto sendiri, Boruto.</item>
+        <item>Dari pembunuhan dan spionase hingga terorisme dan kapal selam curian, tim agen khusus menyelidiki kejahatan apa pun yang memiliki sedikit pun bukti yang terhubung dengan personel Korps Angkatan Laut dan Laut, terlepas dari pangkat atau posisi.</item>
+        <item>Berada di masa kini, seri ini menawarkan pandangan yang berani dan subversif pada Archie, Betty, Veronica dan teman-teman mereka, menjelajahi surreality kehidupan kota kecil, kegelapan dan keanehan yang meluap-luap di bawah fasad Riverdale yang sehat.</item>
+        <item>Chicagoan Frank Gallagher adalah ayah tunggal yang bangga dari enam anak yang cerdas, rajin, mandiri, yang tanpa dia akan … mungkin lebih baik. Ketika Frank tidak di bar menghabiskan sedikit uang yang mereka miliki, dia pingsan di lantai. Tetapi anak-anak telah menemukan cara untuk tumbuh meskipun dia. Mereka mungkin tidak seperti keluarga yang Anda kenal, tetapi mereka tidak meminta maaf karena menjadi diri mereka sebenarnya.</item>
+        <item>Kara Zor-El yang berusia 24 tahun, yang ditangkap oleh keluarga Danvers ketika dia berusia 13 tahun setelah diusir dari Krypton, harus belajar merangkul kekuatannya setelah sebelumnya menyembunyikannya. Danvers mengajarinya untuk berhati-hati dengan kekuatannya, sampai dia harus mengungkapkannya selama bencana yang tak terduga, menempatkannya dalam perjalanan kepahlawanannya.</item>
+        <item>Terletak di Springfield, kota rata-rata di Amerika, pertunjukan ini berfokus pada kejenakaan dan petualangan sehari-hari keluarga Simpson; Homer, Marge, Bart, Lisa dan Maggie, serta ribuan pemain virtual. Sejak awal, serial ini telah menjadi ikon budaya pop, menarik ratusan selebriti menjadi bintang tamu. Acara ini juga menjadi terkenal karena satirnya yang tak kenal takut terhadap kehidupan politik, media, dan Amerika secara umum.</item>
+        <item>Keluarga superhero yang disfungsional berkumpul untuk memecahkan misteri kematian ayah mereka, ancaman kiamat, dan banyak lagi.</item>
+        <item>Wakil Sheriff Rick Grimes terbangun dari koma untuk menemukan dunia pasca-apokaliptik yang didominasi oleh zombie pemakan daging. Dia berangkat untuk menemukan keluarganya dan bertemu dengan banyak penyintas lainnya di sepanjang jalan.</item>
+    </string-array>
+
+    <string-array name="movie_genres">
+        <item>• Adventure, Action, Science Fiction</item>
+        <item>• Science Fiction, Action </item>
+        <item>• Animation, Science Fiction, Adventure, Comedy</item>
+        <item>• Drama, Music</item>
+        <item>• Animation, Family, Adventure</item>
+        <item>• Action, Adventure, Science Fiction</item>
+        <item>• Drama</item>
+        <item>• Action, Adventure, Fantasy</item>
+        <item>• Drama, Romance, Music</item>
+    </string-array>
+
+    <string-array name="movie_revenue">
+        <item>• $2,046,239,637.00</item>
+        <item>• $855,013,954.00</item>
+        <item>• $375,450,417.00</item>
+        <item>• $894,027,543.00</item>
+        <item>• $517,526,875.00</item>
+        <item>• $465,895,025.00</item>
+        <item>• $137,944,327.00</item>
+        <item>• $1,143,689,193.00</item>
+        <item>• $433,888,866.00</item>
+    </string-array>
+
+    <string-array name="movie_runtime">
+        <item>• 2h 29m</item>
+        <item>• 1h 25m</item>
+        <item>• 1h 57m</item>
+        <item>• 2h 15m</item>
+        <item>• 1h 44m</item>
+        <item>• 1h 54m</item>
+        <item>• 2h 10m</item>
+        <item>• 2h 24m</item>
+        <item>• 2h 16m</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="movie_rating">
+        <item>83%</item>
+        <item>66%</item>
+        <item>79%</item>
+        <item>80%</item>
+        <item>81%</item>
+        <item>73%</item>
+        <item>60%</item>
+        <item>83%</item>
+        <item>80%</item>
+        <item>75%</item>
+    </string-array>
+
+</resources>

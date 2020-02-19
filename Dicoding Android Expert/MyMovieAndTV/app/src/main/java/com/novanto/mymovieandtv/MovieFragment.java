@@ -86,7 +86,7 @@ public class MovieFragment extends Fragment {
         movieAdapter.setOnItemClickCallback(new MovieAdapter.OnItemClickCallback() {
             @Override
             public void onItemClicked(Movie movie) {
-                Intent intent = new Intent(getContext(), DetailActivity.class);
+                Intent intent = new Intent(getContext(), DetailMovieActivity.class);
                 intent.putExtra("item",movie);
 
                 startActivity(intent);
