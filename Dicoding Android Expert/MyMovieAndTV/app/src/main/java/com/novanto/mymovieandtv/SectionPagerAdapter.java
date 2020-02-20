@@ -11,7 +11,7 @@ public class SectionPagerAdapter extends FragmentPagerAdapter {
 
     private Context context;
 
-    public SectionPagerAdapter(@NonNull FragmentManager fm, Context context) {
+    SectionPagerAdapter(@NonNull FragmentManager fm, Context context) {
         super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         this.context = context;
     }

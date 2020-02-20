@@ -1,6 +1,7 @@
 package com.novanto.mymovieandtv;
 
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -60,7 +61,7 @@ public class MovieFragment extends Fragment {
         String[] revenue = getResources().getStringArray(R.array.movie_revenue);
         String[] runTime = getResources().getStringArray(R.array.movie_runtime);
         String[] trailer = getResources().getStringArray(R.array.movie_trailer);
-        TypedArray photo = getResources().obtainTypedArray(R.array.movie_photo);
+        @SuppressLint("Recycle") TypedArray photo = getResources().obtainTypedArray(R.array.movie_photo);
 
         ArrayList<Movie> arrayList = new ArrayList<>();
         for (int i =0; i<name.length-1;i++){

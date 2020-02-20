@@ -15,14 +15,14 @@ import com.bumptech.glide.request.RequestOptions;
 import java.util.ArrayList;
 
 public class TVAdapter extends RecyclerView.Adapter<TVAdapter.tvViewHolder> {
-    ArrayList<Movie> list;
+    private ArrayList<Movie> list;
     private OnItemClickCallback onItemClickCallback;
 
     public void setOnItemClickCallback(OnItemClickCallback onItemClickCallback){
         this.onItemClickCallback = onItemClickCallback;
     }
 
-    public TVAdapter(ArrayList<Movie> list) {
+    TVAdapter(ArrayList<Movie> list) {
         this.list = list;
     }
 
@@ -61,11 +61,11 @@ public class TVAdapter extends RecyclerView.Adapter<TVAdapter.tvViewHolder> {
         return list.size();
     }
 
-    public class tvViewHolder extends RecyclerView.ViewHolder {
+    class tvViewHolder extends RecyclerView.ViewHolder {
         TextView tvName;
         ImageView imageView;
 
-        public tvViewHolder(@NonNull View itemView) {
+        tvViewHolder(@NonNull View itemView) {
             super(itemView);
             tvName = itemView.findViewById(R.id.tv_tvShow);
             imageView = itemView.findViewById(R.id.img_item_photo);

@@ -2,174 +2,231 @@
 
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rl_detail"
+        android:padding="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MoveWithDetailActivity"
-        android:orientation="vertical"
-        android:padding="16dp"
-        android:id="@+id/ll">
+        android:layout_height="wrap_content">
 
-        <RelativeLayout
-            android:id="@+id/rl_detail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="170dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/poster"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:id="@+id/img_photo"
-                android:layout_width="170dp"
-                android:layout_height="270dp"
-                android:scaleType="fitXY" />
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="29dp"
+            android:layout_toEndOf="@id/img_photo"
+            android:text="@string/movie_name"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/img_photo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_default="wrap" />
 
-            <TextView
-                android:id="@+id/txt_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="26dp"
-                android:layout_toEndOf="@id/img_photo"
-                android:text="@string/movie_name"
-                android:textSize="30sp"
-                android:textColor="@android:color/black"
-                android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_name"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:text="@string/rating"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/img_photo"
+            app:layout_constraintTop_toBottomOf="@+id/txt_name" />
 
-            <TextView
-                android:id="@+id/txt_rating"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/txt_name"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:layout_toRightOf="@id/img_photo"
-                android:ellipsize="end"
-                android:text="@string/rating"
-                android:textSize="25sp"
-                android:textColor="@android:color/holo_red_light"
-                android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/runtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_rating"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="9dp"
+            android:text="@string/runtime"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/img_photo"
+            app:layout_constraintTop_toBottomOf="@+id/txt_revenue"
+            tools:text="Runtime" />
 
-            <TextView
-                android:id="@+id/runtime"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/img_photo"
-                android:layout_below="@id/txt_rating"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:text="Runtime"
+        <TextView
+            android:id="@+id/genres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/genre"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/img_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/img_photo"
+            app:layout_constraintTop_toBottomOf="@+id/txt_rating"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="@string/genre" />
 
-                android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt_genre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/genres"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/img_photo"
+            app:layout_constraintTop_toBottomOf="@+id/genres"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="Genre Value" />
 
-            <TextView
-                android:id="@+id/txt_runtime"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/img_photo"
-                android:layout_below="@id/runtime"
-                android:layout_marginStart="26dp"
-                android:text="lorem"/>
+        <TextView
+            android:id="@+id/revenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_genre"
+            android:layout_marginTop="9dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.064"
+            app:layout_constraintStart_toEndOf="@+id/img_photo"
+            app:layout_constraintTop_toBottomOf="@+id/txt_genre"
+            app:layout_constraintVertical_bias="0.009"
+            android:text="@string/revenue" />
 
-            <TextView
-                android:id="@+id/genres"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/img_photo"
-                android:layout_below="@id/txt_runtime"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:text="Genres"
-                android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt_revenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/revenue"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.086"
+            app:layout_constraintStart_toEndOf="@+id/img_photo"
+            app:layout_constraintTop_toBottomOf="@+id/revenue"
+            app:layout_constraintVertical_bias="0.012"
+            tools:text="Revenue Value" />
 
-            <TextView
-                android:id="@+id/txt_genre"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/img_photo"
-                android:layout_below="@id/genres"
-                android:layout_marginStart="26dp"
-                android:text="lorem"/>
-
-            <TextView
-                android:id="@+id/revenue"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/img_photo"
-                android:layout_below="@id/txt_genre"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:text="Revenue"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:id="@+id/txt_revenue"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/img_photo"
-                android:layout_below="@id/revenue"
-                android:layout_marginStart="26dp"
-                android:text="lorem"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/txt_revenue"
-                android:layout_toRightOf="@id/img_photo"
-                android:layout_marginStart="26dp"
-                android:layout_alignParentEnd="true"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                android:text="source themoviedb.org"
-                android:textStyle="italic"
-                android:textSize="10dp"/>
-
-        </RelativeLayout>
+        <TextView
+            android:id="@+id/txt_runtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/runtime"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.085"
+            app:layout_constraintStart_toEndOf="@+id/img_photo"
+            app:layout_constraintTop_toBottomOf="@+id/runtime"
+            tools:text="Runtime Value" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_below="@id/txt_revenue"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:text="@string/source"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/img_photo"
+            app:layout_constraintTop_toBottomOf="@+id/txt_runtime"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
             android:ellipsize="end"
-            android:text="Deskripsi Film"
-            android:textSize="20sp"
+            android:text="@string/movie_desc"
             android:textColor="@android:color/black"
-            android:textStyle="bold"/>
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_photo" />
 
         <TextView
             android:id="@+id/txt_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:ellipsize="end"
-            android:text="Deskripsi Film"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/desc"
+            tools:text="Movie Description" />
 
         <TextView
+            android:id="@+id/trailer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
             android:ellipsize="end"
-            android:text="Lihat Trailer"
+            android:text="@string/movie_trailer"
             android:textSize="20sp"
             android:textColor="@android:color/black"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_description"/>
 
         <com.google.android.youtube.player.YouTubePlayerView
             android:id="@+id/youtube_view"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:layout_height="wrap_content"/>
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/trailer" />
 
         <Button
             android:id="@+id/btn_pesan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:text="@string/ticket" />
+            android:layout_marginEnd="10dp"
+            android:text="@string/ticket"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/youtube_view"
+            app:layout_constraintVertical_bias="0.0" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 </ScrollView>

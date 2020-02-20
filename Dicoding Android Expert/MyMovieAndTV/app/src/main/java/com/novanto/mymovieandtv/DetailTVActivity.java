@@ -1,8 +1,5 @@
 package com.novanto.mymovieandtv;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,7 +17,7 @@ public class DetailTVActivity extends YouTubeBaseActivity implements View.OnClic
     private int img;
     private TextView tv_title, tv_desc, tv_revenue, tv_genre, tv_runtime, tv_rating;
     private ImageView imgView;
-    private Button btn_pesan;
+    Button btn_pesan;
     YouTubePlayerView youTubePlayerView;
     YouTubePlayer.OnInitializedListener onInitializedListener;
 

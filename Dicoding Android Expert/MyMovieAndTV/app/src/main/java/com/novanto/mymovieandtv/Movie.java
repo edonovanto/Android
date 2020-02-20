@@ -12,7 +12,7 @@ public class Movie implements Parcelable {
         //default constractor :)
     }
 
-    protected Movie(Parcel in) {
+    private Movie(Parcel in) {
         name = in.readString();
         desc = in.readString();
         genre = in.readString();
@@ -43,59 +43,59 @@ public class Movie implements Parcelable {
         this.name = name;
     }
 
-    public String getDesc() {
+    String getDesc() {
         return desc;
     }
 
-    public void setDesc(String desc) {
+    void setDesc(String desc) {
         this.desc = desc;
     }
 
-    public String getGenre() {
+    String getGenre() {
         return genre;
     }
 
-    public void setGenre(String genre) {
+    void setGenre(String genre) {
         this.genre = genre;
     }
 
-    public String getRuntime() {
+    String getRuntime() {
         return runtime;
     }
 
-    public void setRuntime(String runtime) {
+    void setRuntime(String runtime) {
         this.runtime = runtime;
     }
 
-    public String getRevenue() {
+    String getRevenue() {
         return revenue;
     }
 
-    public void setRevenue(String revenue) {
+    void setRevenue(String revenue) {
         this.revenue = revenue;
     }
 
-    public String getRating() {
+    String getRating() {
         return rating;
     }
 
-    public void setRating(String rating) {
+    void setRating(String rating) {
         this.rating = rating;
     }
 
-    public String getTrailer() {
+    String getTrailer() {
         return trailer;
     }
 
-    public void setTrailer(String trailer) {
+    void setTrailer(String trailer) {
         this.trailer = trailer;
     }
 
-    public int getPhoto() {
+    int getPhoto() {
         return photo;
     }
 
-    public void setPhoto(int photo) {
+    void setPhoto(int photo) {
         this.photo = photo;
     }
 

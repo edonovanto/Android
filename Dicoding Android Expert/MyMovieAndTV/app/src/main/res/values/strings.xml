@@ -6,6 +6,15 @@
     <string name="movie_name">Movie Name</string>
     <string name="lorem">Movie Description</string>
     <string name="rating">Movie Rating</string>
+    <string name="source">Source themoviedb.com</string>
+
+    <string name="runtime">Runtime</string>
+    <string name="revenue">Revenue</string>
+    <string name="genre">Genre</string>
+    <string name="poster">Movie Poster</string>
+    <string name="movie_desc">Description</string>
+    <string name="movie_trailer">Trailer</string>
+    <string name="tv_desc">TV Show Description</string>
 
     <string name="change_language_settings">Change Language Settings</string>
 

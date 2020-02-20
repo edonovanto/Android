@@ -10,6 +10,15 @@
     <string name="movie_name">Nama Film</string>
     <string name="lorem">Deskripsi Film</string>
     <string name="rating">Rating Film</string>
+    <string name="source">Sumber themoviedb.com</string>
+
+    <string name="runtime">Lama Film</string>
+    <string name="revenue">Penghasilan</string>
+    <string name="genre">Aliran</string>
+    <string name="poster">Poster Film</string>
+    <string name="movie_desc">Deskripsi</string>
+    <string name="movie_trailer">Cuplikan</string>
+    <string name="tv_desc">Deskripsi Serial TV</string>
 
     <string name="ticket">Pesan Tiket</string>
 
